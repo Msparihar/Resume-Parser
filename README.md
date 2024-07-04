@@ -2,6 +2,10 @@
 
 This application uses Streamlit and ChatGPT to parse resumes and convert them into JSON format.
 
+# Demo
+
+https://github.com/Msparihar/Resume-Parser/assets/75237981/2c463bbb-b350-4342-8c0e-4c43fd4ff415
+
 ## Setup
 
 1. Clone the repository
