@@ -26,5 +26,5 @@ def generate_json_from_text(text):
             {"role": "user", "content": prompt}
         ]
     )
-    print(response.choices[0].message.content)
+    
     return response.choices[0].message.content 
