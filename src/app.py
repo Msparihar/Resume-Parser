@@ -12,8 +12,11 @@ def main():
         
         if st.button("Parse Resume"):
             with st.spinner("Parsing resume..."):
-                json_output = generate_json_from_text(resume_text)
-                st.json(json_output)
+                try:
+                    json_output = generate_json_from_text(resume_text)
+                    st.json(json_output)
+                except Exception as e:
+                    st.error(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     main()

@@ -10,9 +10,13 @@ https://github.com/Msparihar/Resume-Parser/assets/75237981/2c463bbb-b350-4342-8c
 
 1. Clone the repository
 
+```bash
+git clone https://github.com/Msparihar/Resume-Parser.git
+```
+
 2. Install the required packages:
 
-```python
+```bash
 pip install -r requirements.txt
 ```
 
@@ -24,7 +28,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 4. Run the Streamlit app:
 
-```
+```bash
 streamlit run app.py
 ```
 
